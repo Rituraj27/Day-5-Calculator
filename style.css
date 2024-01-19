@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #17202b;
+  /* display: grid;
+  place-items: center; */
+}
+
+hr {
+  margin-bottom: 8px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  background-color: #fff;
+  /* background-color: #808b96; */
+  padding: 8px 18px 18px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.display {
+  /* cursor: pointer; */
+  pointer-events: none;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 2px;
+  font-size: 24px;
+  color: #17202b;
+  outline: none;
+  border: none;
+  text-align: right;
+}
+
+.buttons-text {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons-text button {
+  cursor: pointer;
+  /* color: #17202b; */
+  background-color: #eee;
+  border: none;
+  padding: 9px 11px;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.buttons-text button:active {
+  transform: scale(1);
+}
+
+.oprands {
+  color: rgb(232, 152, 5);
+  font-weight: 500;
+}
